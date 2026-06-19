@@ -1,8 +1,8 @@
-// #include <iostream>
-// #include <vector>
-// #include <iomanip> // for setprecision
-// #include <string>
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <iomanip> // for setprecision
+#include <string>
+// #include <bits/stdc++.h>
 
 #include "analyzer.h"
 #include "metrics.h"
@@ -15,14 +15,14 @@
 #include "merge_sort.h"
 #include "quick_sort.h"
 #include "count_sort.h"
-
+using ll=long long;
 using namespace std;
 
 struct AlgoResult {
     string name;
     double time;
-    long long comparisons;
-    long long swaps;
+    ll comparisons;
+    ll swaps;
 };
 
 string getAlgoName(int id) {
